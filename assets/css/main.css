@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Flex', sans-serif;
+    color: #fff;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+button{
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+h1,h2,h3, h4, h5, h6{
+    font-family: 'Mohave', sans-serif;
+}
+
+html{
+    background-color: #000407;
+    font-size: 62.5%;
+    
+}
+.container{
+    width: 100%;
+    max-width: 124.6rem;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    height: 7.2rem;
+    display: flex;
+}
+
+header .container{
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 4, 7, 0.90);
+    backdrop-filter: blur(4px);
+}
+
+header nav{
+    display: flex;
+    gap: 4.7rem;
+}
+
+header nav a{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 150%; 
+}
+
+header button{
+    border-radius: 3.2rem;
+    border: 2px solid var(--gray-dark-05, #2F2F3B);
+    display: flex;
+    height: 4rem;
+    padding: 0rem 2.4rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 150%; 
+}
+
+.s-hero .container{
+   display: flex;
+   align-items: flex-start;
+   justify-content: space-between;
+}
+.s-hero{
+    width: 100%;
+    background: url('../bg/bg-hero.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 80rem;
+    padding-top: 11.2rem;
+    padding-bottom:  19.3rem;
+}
+
+.s-hero .left{
+    width: 100%;
+    max-width: 62.2rem;
+}
+
+.s-hero .left .plataform{
+    display: flex;
+    margin-bottom: 2.4rem;
+}
+
+.s-hero .left .plataform span{
+    color: #c0c0c0;
+    font-size: 1.2rem;
+    line-height: 150%; 
+    border-radius: 0.4rem;
+    background-color: #1B1B21;
+    padding: 0.6rem 1.2rem;
+    border-radius: 4px 0px 0px 4px;
+}
+
+.s-hero .left .plataform strong{
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 150%;
+    background-color: #25252E;
+    padding: 0.6rem 1.2rem;
+    border-radius: 0rem 0.4rem 0.4rem 0rem;
+}
+
+.s-hero .left h1{
+    font-size: 5.6rem;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 0.8rem;
+}
+
+.s-hero .left .description{
+    font-size: 1.8rem;
+    line-height: 150%;
+    margin-bottom: 4.8rem;
+}
+
+.s-hero .left .value{
+    margin-bottom: 7.2rem;
+    
+}
+
+.s-hero .left .value h3{
+    font-size: 3.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 2.4rem;
+}
+
+.s-hero .left .value .btns{
+    display: flex;
+    align-items: center;
+    gap: 2.2rem;
+}
+
+.s-hero .left .value .btns .btn-cart{
+    border-radius: 3.2rem;
+    background-color: #F55827;
+    height: 5.6rem;
+    padding: 1.6rem 4rem;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 150%; 
+}
+
+.s-hero .left .value .btns .btn-favorite{
+    display: flex;
+    width: 5.6rem;
+    height: 5.6rem;
+    padding: 1.6rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid var(--gray-dark-05, #2F2F3B);
+    
+}
+
+.s-hero .left ul{
+    margin-bottom: 1.7rem;
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.s-hero .left ul:last-child{
+    margin-bottom: 0;
+    
+}
+
+.s-hero .left ul li{
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    
+}
+.s-hero .left ul p{
+    color: #F2F2FF;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 150%; 
+}
+
+.s-hero .left ul li a{
+    color: #F2F2FF;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 150%; 
+}
+
+.s-hero .left ul li:last-child:before{
+    content: "";  
+    width: 5px;
+    height: 5px;
+    background-color: #c0c0cc;
+    border-radius: 50%;
+}
+
+.s-hero .left ul:last-child li:before{
+    display: none !important;
+}
+
+.s-hero .right{
+    width: 100%;
+    max-width: 9.5rem;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 16px;
+    margin-top: 4.3rem;
+}
+
+.s-hero .right span{
+    border-radius: 0.6rem;
+    background: var(--auxiliary-yellow, #F09104);
+    display: flex;
+    width: 3.2rem;
+    height: 3.2rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.s-hero .right p{
+    color: #E1E1E1;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 150%; 
+}
+
